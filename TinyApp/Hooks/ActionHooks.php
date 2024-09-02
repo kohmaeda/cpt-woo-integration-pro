@@ -65,6 +65,8 @@ class ActionHooks {
 			$query_post_types = array_merge( $query_post_types, $supported );
 			$ignored          = Functions::get_hide_post_ids_for_shop_page();
 			if ( ! empty( $ignored ) ) {
+				$existing_ignored = $query->get( 'post__not_in', [] );
+				$ignored          = array_merge( (array) $existing_ignored, $ignored );
 				$query->set( 'post__not_in', $ignored );
 			}
 			$query->set( 'post_type', $query_post_types );

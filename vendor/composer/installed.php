@@ -3,7 +3,7 @@
         'name' => 'tinysolutions/cpt-woo-integration-pro',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => 'e9d0f43eef676f91aedfb599d3cd59e7cd9adaa5',
+        'reference' => '01d0135bf21122b537ac44f0104c336970d4c6c3',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'tinysolutions/cpt-woo-integration-pro' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => 'e9d0f43eef676f91aedfb599d3cd59e7cd9adaa5',
+            'reference' => '01d0135bf21122b537ac44f0104c336970d4c6c3',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

@@ -20,6 +20,9 @@ namespace TinySolutions\cptwoointpro\PluginsSupport;
 // Do not allow directly accessing this file.
 
 use TinySolutions\cptwooint\Helpers\Fns;
+use TinySolutions\cptwoointpro\PluginsSupport\EasyBooking\EasyBookingInit;
+use TinySolutions\cptwoointpro\PluginsSupport\ThemecompleteEPO\Epoinit;
+use TinySolutions\cptwoointpro\PluginsSupport\WCBookings\WCBookingsInit;
 use TinySolutions\cptwoointpro\Traits\SingletonTrait;
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -49,7 +52,16 @@ class RootSupport {
 	 * @return void
 	 */
 	public function plugin_integration() {
-	
+		// Extra Product Options & Add-Ons for WooCommerce.
+		if ( function_exists( 'themecomplete_extra_product_options_setup' ) ) {
+			Epoinit::instance();
+		}
+		if ( function_exists( 'woocommerce_bookings_init' ) ) {
+			WCBookingsInit::instance();
+		}
+		if ( function_exists( 'WCEB' ) ) {
+			EasyBookingInit::instance();
+		}
 	}
 
 }

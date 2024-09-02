@@ -18,8 +18,9 @@ return array(
     'TinySolutions\\cptwoointpro\\Hooks\\CommentHooks' => $baseDir . '/TinyApp/Hooks/CommentHooks.php',
     'TinySolutions\\cptwoointpro\\Hooks\\FilterHooks' => $baseDir . '/TinyApp/Hooks/FilterHooks.php',
     'TinySolutions\\cptwoointpro\\Hooks\\StructuredData' => $baseDir . '/TinyApp/Hooks/StructuredData.php',
-    'TinySolutions\\cptwoointpro\\Modal\\CptProductGroupedDataStore' => $baseDir . '/TinyApp/Modal/CptProductGroupedDataStore.php',
-    'TinySolutions\\cptwoointpro\\Modal\\CptVariableProductDataStore' => $baseDir . '/TinyApp/Modal/CptVariableProductDataStore.php',
-    'TinySolutions\\cptwoointpro\\Modal\\CptVariationProductDataStore' => $baseDir . '/TinyApp/Modal/CptVariationProductDataStore.php',
+    'TinySolutions\\cptwoointpro\\Models\\CptProductGroupedDataStore' => $baseDir . '/TinyApp/Models/CptProductGroupedDataStore.php',
+    'TinySolutions\\cptwoointpro\\Models\\CptVariableProductDataStore' => $baseDir . '/TinyApp/Models/CptVariableProductDataStore.php',
+    'TinySolutions\\cptwoointpro\\Models\\CptVariationProductDataStore' => $baseDir . '/TinyApp/Models/CptVariationProductDataStore.php',
+    'TinySolutions\\cptwoointpro\\PluginsSupport\\RootSupport' => $baseDir . '/TinyApp/PluginsSupport/RootSupport.php',
     'TinySolutions\\cptwoointpro\\Traits\\SingletonTrait' => $baseDir . '/TinyApp/Traits/SingletonTrait.php',
 );

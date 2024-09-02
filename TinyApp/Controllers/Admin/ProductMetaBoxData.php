@@ -170,6 +170,7 @@ class ProductMetaBoxData extends WC_Meta_Box_Product_Data {
 		/* phpcs:disable WooCommerce.Commenting.CommentHooks.MissingHookComment */
 		do_action( 'woocommerce_process_product_meta_' . $product_type, $post_id );
 		/* phpcs:enable WordPress.Security.NonceVerification.Missing and WooCommerce.Commenting.CommentHooks.MissingHookComment */
+		do_action( 'woocommerce_process_product_meta', $post_id, $post );
 	}
 
 	/**

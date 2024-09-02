@@ -1,6 +1,6 @@
 <?php
 
-namespace TinySolutions\cptwoointpro\Modal;
+namespace TinySolutions\cptwoointpro\Models;
 
 use TinySolutions\cptwooint\Helpers\Fns;
 use WC_Product_Variation_Data_Store_CPT;

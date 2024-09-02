@@ -13,7 +13,17 @@ Custom Post Type Woocommerce Integration Pro
 
 == Change Log ==
 
-= 1.2.2=
+= 1.2.6 ( July 14, 2024 ) =
+* 3rd Party Plugin Support friendly hooks added
+
+= 1.2.5 ( June 29, 2024 ) =
+* WooCommerce Bookings ( Pro )
+* Easy Booking for WooCommerce ( Pro )
+
+= 1.2.4 ( May 31, 2024 ) =
+* Added: New Version Update
+
+= 1.2.3 ( May 28, 2024 ) =
 * Added: Product Show In Shop Page
 
 = 1.2.1 ( March 28, 2024 )=

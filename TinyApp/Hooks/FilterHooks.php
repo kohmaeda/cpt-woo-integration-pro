@@ -8,10 +8,10 @@
 namespace TinySolutions\cptwoointpro\Hooks;
 
 use TinySolutions\cptwooint\Helpers\Fns;
-use TinySolutions\cptwoointpro\Modal\CptProductGroupedDataStore;
+use TinySolutions\cptwoointpro\Models\CptProductGroupedDataStore;
 use TinySolutions\cptwoointpro\Traits\SingletonTrait;
-use TinySolutions\cptwoointpro\Modal\CptVariableProductDataStore;
-use TinySolutions\cptwoointpro\Modal\CptVariationProductDataStore;
+use TinySolutions\cptwoointpro\Models\CptVariableProductDataStore;
+use TinySolutions\cptwoointpro\Models\CptVariationProductDataStore;
 
 defined( 'ABSPATH' ) || exit();
 

@@ -1,10 +1,10 @@
 <?php
 
 /**
- * Plugin Name:       Custom Post Type Woocommerce Integration Pro
+ * Plugin Name:       Custom Post Type WooCommerce Integration Pro
  * Plugin URI:        https://www.wptinysolutions.com/tiny-products/cpt-woo-integration/
  * Description:       Integrate custom post type with woocommerce. Sell Any Kind Of Custom Post
- * Version:           1.2.3
+ * Version:           1.2.6
  * Update URI: https://api.freemius.com
  * Author:            Tiny Solutions
  * Author URI:        https://wptinysolutions.com/
@@ -24,7 +24,7 @@ use TinySolutions\cptwoointpro\Controllers\Dependencies;
 /**
  * Define cptwooint Constant.
  */
-define( 'CPTWIP_VERSION', '1.2.3' );
+define( 'CPTWIP_VERSION', '1.2.6' );
 define( 'CPTWIP_FILE', __FILE__ );
 define( 'CPTWIP_BASENAME', plugin_basename( CPTWIP_FILE ) );
 define( 'CPTWIP_URL', plugins_url( '', CPTWIP_FILE ) );

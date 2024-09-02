@@ -90,14 +90,14 @@ if ( ! class_exists( CptWooProInt::class ) ) {
 		 * @return void
 		 */
 		public function plugins_loaded_init() {
-			if ( !  Dependencies::instance()->check() ) {
+			if ( ! Dependencies::instance()->check() ) {
 				return;
 			}
 
 			do_action( 'cptwoointpro/before_loaded' );
 
 			// Include File.
-            RootSupport::instance();
+			RootSupport::instance();
 			AssetsController::instance();
 			CommentHooks::init();
 			FilterHooks::instance();

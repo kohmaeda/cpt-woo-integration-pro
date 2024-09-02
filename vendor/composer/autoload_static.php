@@ -33,9 +33,10 @@ class ComposerStaticInit78a87e5fb7b9f3b38626d5fceb5ced1b
         'TinySolutions\\cptwoointpro\\Hooks\\CommentHooks' => __DIR__ . '/../..' . '/TinyApp/Hooks/CommentHooks.php',
         'TinySolutions\\cptwoointpro\\Hooks\\FilterHooks' => __DIR__ . '/../..' . '/TinyApp/Hooks/FilterHooks.php',
         'TinySolutions\\cptwoointpro\\Hooks\\StructuredData' => __DIR__ . '/../..' . '/TinyApp/Hooks/StructuredData.php',
-        'TinySolutions\\cptwoointpro\\Modal\\CptProductGroupedDataStore' => __DIR__ . '/../..' . '/TinyApp/Modal/CptProductGroupedDataStore.php',
-        'TinySolutions\\cptwoointpro\\Modal\\CptVariableProductDataStore' => __DIR__ . '/../..' . '/TinyApp/Modal/CptVariableProductDataStore.php',
-        'TinySolutions\\cptwoointpro\\Modal\\CptVariationProductDataStore' => __DIR__ . '/../..' . '/TinyApp/Modal/CptVariationProductDataStore.php',
+        'TinySolutions\\cptwoointpro\\Models\\CptProductGroupedDataStore' => __DIR__ . '/../..' . '/TinyApp/Models/CptProductGroupedDataStore.php',
+        'TinySolutions\\cptwoointpro\\Models\\CptVariableProductDataStore' => __DIR__ . '/../..' . '/TinyApp/Models/CptVariableProductDataStore.php',
+        'TinySolutions\\cptwoointpro\\Models\\CptVariationProductDataStore' => __DIR__ . '/../..' . '/TinyApp/Models/CptVariationProductDataStore.php',
+        'TinySolutions\\cptwoointpro\\PluginsSupport\\RootSupport' => __DIR__ . '/../..' . '/TinyApp/PluginsSupport/RootSupport.php',
         'TinySolutions\\cptwoointpro\\Traits\\SingletonTrait' => __DIR__ . '/../..' . '/TinyApp/Traits/SingletonTrait.php',
     );
 
